@@ -1,0 +1,61 @@
+*{
+    box-sizing:border-box;  
+  }
+  
+  body {
+      background-color:rgb(109, 168, 121);
+  }
+  
+  
+  div {
+      width:22.5%;
+      margin:120px auto;
+      border:5px solid black;
+      border-radius: 5%;
+      background-color:rgb(182, 166, 226);
+  }
+  
+  button {
+      width:60px;
+      height:47px;
+      margin:9.5px;
+      font-size:25px;
+      border-radius:20%;
+  }
+  
+  
+  button:hover {
+      box-shadow:5px 5px 2px 2px;
+  }
+  
+  .noselect {
+      
+      user-select: none; 
+    }
+  
+  
+  
+  input {
+      margin:8px;
+      color:rgb(15, 1, 1);
+      background-color:rgb(184, 162, 162);
+      padding-left: 2px;
+      height:60px;
+      font-size:25px;
+  }
+  
+  #del {
+      background-color:rgb(224, 97, 97);
+  }
+  
+  #backBtn,#leftBracket,#rightBracket {
+      background-color:rgb(238, 202, 136);
+  }
+  
+  #equalBtn {
+      background-color:rgb(153, 233, 153);
+  }
+  
+  #plusBtn, #minusBtn, #multiplyBtn, #divideBtn {
+      background-color:rgb(238, 238, 131);
+  }
